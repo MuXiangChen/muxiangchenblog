@@ -18,7 +18,7 @@ module.exports = {
         ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/fav/apple-touch-icon-180.png' }],
         ['link', { rel: 'mask-icon', href: '/fav/safari-pinned-tab.svg', color: '#0078df' }],
         ['link', { rel: 'manifest', href: '/fav/manifest.json' }]
-        ['meta', { name: "theme-color", content: "#0078df" }]
+        ['meta', { name: 'theme-color', content: '#0078df' }]
     ],
     themeConfig: {
         logo: '/favicon.png', // 导航栏 logo
@@ -40,32 +40,59 @@ module.exports = {
                     }
                 },
                 algolia: {},
-                /*
                 nav: [
-                    { text: '数学', link: '/en/codelearn/', ariaLabel: 'Nested' }
+                    { text: 'ideas', link: '/en/idea/' },
+                    { text: 'dev_log', link: '/en/devlog/' },
+                    { text: 'tutorial', link: '/codelearn/' }
                 ],
                 sidebar: {
-                    '/en/codelearn': [{
-                            title: '勾股定理', // 必要的
-                            path: '/en/codelearn/vue', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-                            collapsable: true, // 可选的, 默认值是 true,
-                            sidebarDepth: 1, // 可选的, 默认值是 1
+                    '/en/codelearn/': [{
+                            title: 'Vue.js',
+                            path: '/en/codelearn/vue',
+                            collapsable: true,
+                            sidebarDepth: 1,
                             children: [
-                                ['/en/codelearn/vue/vue1', '第一个公式']
+                                '/en/codelearn/vue/vuepress'
                             ]
                         },
                         {
-                            title: 'ios教程', // 必要的
-                            path: '/en/codelearn/ios', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-                            collapsable: true, // 可选的, 默认值是 true,
-                            sidebarDepth: 1, // 可选的, 默认值是 1
+                            title: 'iOS',
+                            path: '/en/codelearn/ios',
+                            collapsable: true,
+                            sidebarDepth: 1,
                             children: [
-                                ['/en/codelearn/ios/1', '1']
+                                '/en/codelearn/ios/objective-c'
+                            ]
+                        },
+                        {
+                            title: 'Thoughts',
+                            path: '/en/codelearn/thinking',
+                            collapsable: true,
+                            sidebarDepth: 1,
+                            children: [
+                                '/en/codelearn/ios/tools'
                             ]
                         }
-                    ]
+                    ],
+                    '/en/devlog/': [{
+                        title: 'Apps',
+                        path: '/en/devlog/apps',
+                        collapsable: true,
+                        sidebarDepth: 1,
+                        children: [
+                            '/en/devlog/apps/socialapp'
+                        ]
+                    }],
+                    '/en/idea/': [{
+                        title: 'Apps',
+                        path: '/en/idea/apps',
+                        collapsable: true,
+                        sidebarDepth: 1,
+                        children: [
+                            '/en/idea/apps/personalsite'
+                        ]
+                    }]
                 }
-                */
             },
             '/': {
                 lang: 'zh-CN',
@@ -85,8 +112,7 @@ module.exports = {
                 nav: [
                     { text: '创意和想法', link: '/idea/' },
                     { text: '开发日志', link: '/devlog/' },
-                    { text: '小教程', link: '/codelearn/' },
-
+                    { text: '小教程', link: '/codelearn/' }
                 ],
                 sidebar: {
                     '/codelearn/': [{
@@ -95,7 +121,7 @@ module.exports = {
                             collapsable: true,
                             sidebarDepth: 1,
                             children: [
-                                '/codelearn/vue/vue1'
+                                '/codelearn/vue/vuepress'
                             ]
                         },
                         {
@@ -104,7 +130,16 @@ module.exports = {
                             collapsable: true,
                             sidebarDepth: 1,
                             children: [
-                                '/codelearn/ios/1'
+                                '/codelearn/ios/objective-c'
+                            ]
+                        },
+                        {
+                            title: '编程思想',
+                            path: '/codelearn/thinking',
+                            collapsable: true,
+                            sidebarDepth: 1,
+                            children: [
+                                '/codelearn/ios/tools'
                             ]
                         }
                     ],

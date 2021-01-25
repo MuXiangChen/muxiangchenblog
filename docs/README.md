@@ -3,8 +3,8 @@ home: true
 heroImage: /favicon.png
 heroText: 我叫穆相臣，很高兴认识你
 tagline: 来世ではちゃんとします
-actionText: 站点开源在Github →
-actionLink: https://github.com/MuXiangChen/muxiangchen.github.io
+actionText: 本站点源码在Github →
+actionLink: https://github.com/MuXiangChen/muxiangchenblog
 features:
 - title: 创意和想法
   details: 我会把一些灵感和想法记录到这里，大部分都是一些设计思路
