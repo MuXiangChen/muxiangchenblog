@@ -1,8 +1,15 @@
 module.exports = {
     themeConfig: {
-        logo: '/favicon.png', // 导航栏 logo
+        logo: '/navicon.png', // 导航栏 logo
         sidebar: 'auto',
         displayAllHeaders: true,
+        markdown: {
+            extractHeaders: ['h2', 'h3', 'h4']
+        },
+        theme: 'vuepress-theme-succinct',
+        head: [
+            ['meta', { name: 'theme-color', content: "#fc46aa" }]
+        ],
         locales: {
             '/en/': {
                 lang: 'en-US',
@@ -32,15 +39,6 @@ module.exports = {
                             sidebarDepth: 1,
                             children: [
                                 '/en/codelearn/vue/vuepress'
-                            ]
-                        },
-                        {
-                            title: 'iOS',
-                            path: '/en/codelearn/ios',
-                            collapsable: true,
-                            sidebarDepth: 1,
-                            children: [
-                                '/en/codelearn/ios/objective-c'
                             ]
                         },
                         {
@@ -101,15 +99,6 @@ module.exports = {
                             sidebarDepth: 1,
                             children: [
                                 '/codelearn/vue/vuepress'
-                            ]
-                        },
-                        {
-                            title: 'iOS',
-                            path: '/codelearn/ios',
-                            collapsable: true,
-                            sidebarDepth: 1,
-                            children: [
-                                '/codelearn/ios/objective-c'
                             ]
                         },
                         {

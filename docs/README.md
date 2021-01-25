@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /favicon.png
+heroImage: /heroicon.png
 heroText: 我叫穆相臣，很高兴认识你
 tagline: 来世ではちゃんとします
 actionText: 本站点源码在Github →
