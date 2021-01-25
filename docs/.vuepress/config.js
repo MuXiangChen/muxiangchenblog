@@ -6,7 +6,7 @@ module.exports = {
         locales: {
             '/en/': {
                 lang: 'en-US',
-                title: 'Jasmine blog',
+                title: "Jasmine's blog",
                 description: 'a long path.',
                 selectText: 'Languages',
                 label: 'English',
@@ -147,7 +147,7 @@ module.exports = {
     locales: {
         '/en/': {
             lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
-            title: 'Jasmine blog',
+            title: "Jasmine's blog",
             description: 'programmers change the world.'
         },
         '/': {
