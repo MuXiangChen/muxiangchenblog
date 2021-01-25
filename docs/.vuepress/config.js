@@ -22,7 +22,7 @@ module.exports = {
                 nav: [
                     { text: 'ideas', link: '/en/idea/' },
                     { text: 'dev_log', link: '/en/devlog/' },
-                    { text: 'tutorial', link: '/codelearn/' }
+                    { text: 'tutorial', link: '/en/codelearn/' }
                 ],
                 sidebar: {
                     '/en/codelearn/': [{
@@ -49,7 +49,7 @@ module.exports = {
                             collapsable: true,
                             sidebarDepth: 1,
                             children: [
-                                '/en/codelearn/ios/tools'
+                                '/en/codelearn/thinking/tools'
                             ]
                         }
                     ],
@@ -118,7 +118,7 @@ module.exports = {
                             collapsable: true,
                             sidebarDepth: 1,
                             children: [
-                                '/codelearn/ios/tools'
+                                '/codelearn/thinking/tools'
                             ]
                         }
                     ],
