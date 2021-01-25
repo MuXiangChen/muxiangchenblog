@@ -6,7 +6,7 @@ module.exports = {
         locales: {
             '/en/': {
                 lang: 'en-US',
-                title: "Jasmine's blog",
+                title: 'Jasmine blog',
                 description: 'a long path.',
                 selectText: 'Languages',
                 label: 'English',
@@ -14,8 +14,8 @@ module.exports = {
                 editLinkText: 'Edit this page on GitHub',
                 serviceWorker: {
                     updatePopup: {
-                        message: "New content is available.",
-                        buttonText: "Refresh"
+                        message: 'New content is available.',
+                        buttonText: 'Refresh'
                     }
                 },
                 algolia: {},
@@ -82,8 +82,8 @@ module.exports = {
                 editLinkText: '在 GitHub 上编辑此页',
                 serviceWorker: {
                     updatePopup: {
-                        message: "发现新内容可用.",
-                        buttonText: "刷新"
+                        message: '发现新内容可用.',
+                        buttonText: '刷新'
                     }
                 },
                 // 当前 locale 的 algolia docsearch 选项
@@ -147,8 +147,8 @@ module.exports = {
     locales: {
         '/en/': {
             lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
-            title: "Jasmine's blog",
-            description: "programmers can't change the world."
+            title: 'Jasmine blog',
+            description: 'programmers change the world.'
         },
         '/': {
             lang: 'zh-CN',
