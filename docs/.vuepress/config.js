@@ -107,7 +107,8 @@ module.exports = {
                             collapsable: true,
                             sidebarDepth: 1,
                             children: [
-                                '/codelearn/thinking/tools'
+                                '/codelearn/thinking/tools',
+                                '/codelearn/thinking/career'
                             ]
                         }
                     ],
