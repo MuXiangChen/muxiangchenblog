@@ -4,6 +4,7 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
+    "@maginapp/vuepress-plugin-katex": "^1.0.10",
     "vuepress": "^1.8.0"
   },
   "name": "muxiangchenblog",
@@ -13,7 +14,12 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-include": "^2.0.0",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-multimd-table": "^4.0.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MuXiangChen/muxiangchenblog.git"

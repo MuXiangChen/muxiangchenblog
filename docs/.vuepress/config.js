@@ -1,15 +1,30 @@
 module.exports = {
+    markdown: {
+        lineNumbers: true,
+        extendMarkdown: md => {
+            md.set({ typographer: true }),
+                md.use(require('markdown-it-footnote'))
+        }
+    },
+    plugins: [
+        '@maginapp/vuepress-plugin-katex',
+        {
+            delimiters: 'dollars'
+        }
+    ],
+    head: [
+        ['meta', { name: 'theme-color', content: '#fc46aa' }],
+        ['link', { rel: 'icon', herf: '/navicon.png' }],
+
+    ],
     themeConfig: {
         logo: '/navicon.png', // 导航栏 logo
         sidebar: 'auto',
         displayAllHeaders: true,
         markdown: {
-            extractHeaders: ['h2', 'h3', 'h4']
+            extractHeaders: ['h2', 'h3', 'h4'],
         },
         theme: 'vuepress-theme-succinct',
-        head: [
-            ['meta', { name: 'theme-color', content: "#fc46aa" }]
-        ],
         locales: {
             '/en/': {
                 lang: 'en-US',
@@ -110,6 +125,15 @@ module.exports = {
                                 '/codelearn/thinking/tools',
                                 '/codelearn/thinking/career'
                             ]
+                        },
+                        {
+                            title: '基础',
+                            path: '/codelearn/basic',
+                            collapsable: true,
+                            sidebarDepth: 1,
+                            children: [
+                                '/codelearn/basic/markdown'
+                            ]
                         }
                     ],
                     '/devlog/': [{
@@ -129,6 +153,14 @@ module.exports = {
                         children: [
                             '/idea/apps/personalsite'
                         ]
+                    }, {
+                        title: '思考',
+                        path: '/idea/thinking',
+                        collapsable: true,
+                        sidebarDepth: 1,
+                        children: [
+                            '/idea/thinking/ideas'
+                        ]
                     }]
                 }
             }
@@ -143,7 +175,7 @@ module.exports = {
         '/': {
             lang: 'zh-CN',
             title: '穆相臣的博客',
-            description: '学编程是改变不了世界的。'
+            description: '程序改变世界'
         }
     },
     lang: 'zh-CN'
