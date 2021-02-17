@@ -123,7 +123,9 @@ module.exports = {
                             sidebarDepth: 1,
                             children: [
                                 '/codelearn/thinking/tools',
-                                '/codelearn/thinking/career'
+                                '/codelearn/thinking/career',
+                                '/codelearn/thinking/frontend',
+
                             ]
                         },
                         {
@@ -151,7 +153,8 @@ module.exports = {
                         collapsable: true,
                         sidebarDepth: 1,
                         children: [
-                            '/idea/apps/personalsite'
+                            '/idea/apps/personalsite',
+                            '/idea/apps/store'
                         ]
                     }, {
                         title: '思考',

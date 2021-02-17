@@ -17,8 +17,6 @@ footer:  GPL-3.0 Licensed | Copyright © 2021-present XiangChen Mu 转载请注�
 
     TODO:
 
-    angular vue react 主观比较
+    angular vue react 主观比较（转载）
 
-    2021-2022 互联网行业粗浅预测
-
-    前沿技术和站点推荐
+    css教程
