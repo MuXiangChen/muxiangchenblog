@@ -100,7 +100,7 @@ module.exports = {
                         title: 'Apps',
                         path: '/en/devlog/apps',
                         collapsable: true,
-                        sidebarDepth: 1,
+                        sidebarDepth: 2,
                         children: [
                             '/en/devlog/apps/socialapp'
                         ]
@@ -172,7 +172,7 @@ module.exports = {
                         title: '应用',
                         path: '/devlog/apps',
                         collapsable: true,
-                        sidebarDepth: 1,
+                        sidebarDepth: 2,
                         children: [
                             '/devlog/apps/socialapp'
                         ]
