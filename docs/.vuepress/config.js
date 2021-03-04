@@ -174,7 +174,16 @@ module.exports = {
                         collapsable: true,
                         sidebarDepth: 2,
                         children: [
-                            '/devlog/apps/socialapp'
+                            '/devlog/apps/socialapp',
+                            '/devlog/apps/wechatShop'
+                        ]
+                    }, {
+                        title: '服务',
+                        path: '/devlog/services',
+                        collapsable: true,
+                        sidebarDepth: 2,
+                        children: [
+                            '/devlog/services/ChatShop'
                         ]
                     }],
                     '/idea/': [{
