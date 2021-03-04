@@ -2,8 +2,13 @@
 
 最近为了谋生，开始卖电子烟，但本人没有空闲时间用来聊微信，所以决定开发一个微信机器人自动接待顾客，下单-发货
 
+项目搁置
+
 ## 技术结构
-+ [Wechaty 微信托管](https://github.com/wechaty/wechaty)
++ [Wechaty 微信托管](https://github.com/wechaty/wechaty) 
+::: danger
+因web接口收紧，作者又太穷，买不起安卓协议的SDK，此项目暂时搁置.
+:::
 + [ChatShop 服务](../services/ChatShop.md)
 
 ## 字段表
